@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: EvilPacManManager
   m_EditorClassIdentifier: 
   prefabNames:
-  - EvilPacman
-  prefabsToSpawn: 05000000
+  - PacmanVillain
+  prefabsToSpawn: 0100000001000000010000000100000001000000
   spawnPoints:
   - spawnPoints:
     - {x: -8, y: 2}
-    - {x: -6, y: 2}
+  - spawnPoints:
+    - {x: -4, y: 2}
+  - spawnPoints:
     - {x: 0, y: 2}
-    - {x: 6, y: 2}
+  - spawnPoints:
+    - {x: 4, y: 2}
+  - spawnPoints:
     - {x: 8, y: 2}
